@@ -1,4 +1,7 @@
-# rand_play
+# rand_play 0.001
+
+Released under LGPLv2.1 license
+
 Random background music player
 
 music is added to the sounds folder with naming convention of sound.1.ogg sound.2.ogg sound.3.ogg etc.
@@ -8,3 +11,5 @@ It will only randomly select those files named accordingly. See sample files for
 
 options in config.lua are commented to explain the use.
 Definitely set them up first before using.
+
+music included was released under CC by SPCZ
