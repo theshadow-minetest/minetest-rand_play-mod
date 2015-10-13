@@ -2,6 +2,8 @@
 
 Released under LGPLv2.1 license
 
+rename directory to rand_play when installing.
+
 Random background music player
 
 music is added to the sounds folder with naming convention of sound.1.ogg sound.2.ogg sound.3.ogg etc.
