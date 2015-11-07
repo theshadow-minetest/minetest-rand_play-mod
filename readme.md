@@ -1,17 +1,17 @@
-# rand_play 0.001
-
-Released under LGPLv2.1 license
-
-rename directory to rand_play when installing.
-
+# rand_play
 Random background music player
 
-music is added to the sounds folder with naming convention of sound.1.ogg sound.2.ogg sound.3.ogg etc.
-Of course you can use any name you wish just be sure to set that option in config.lua file.
-if you want to change the sounds from time to time just add different prefixed names in the sounds folder then change the prefix setting in config.lua.
-It will only randomly select those files named accordingly. See sample files for example naming.
+Add music to the sounds directory. Minetest only accepts ogg format at this time.
+Do not use extra dots/periods in files names. It will not read them correctly.
+Add music file names to list.lua according to the format in the examples list.
+
+It will only randomly select those files accordingly. See sample files for example naming.
 
 options in config.lua are commented to explain the use.
 Definitely set them up first before using.
 
-music included was released under CC by SPCZ
+The batch and shell scripts included can be used to automatically create the list from the files in the sounds folder.
+Or you can add and remove manually. Will only play those on the list.
+
+NOTE: Be careful how much you put into the sounds folder, minetest will load them all. A large set of sounds will cause
+very long loading times for the client.
